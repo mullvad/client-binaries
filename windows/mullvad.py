@@ -1,3 +1,5 @@
-import mullvad.mullvad
+from __future__ import absolute_import
 
-mullvad.mullvad.main()
+from mullvad import mui
+
+mui.main()
